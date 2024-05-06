@@ -1,0 +1,25 @@
+.filmContainer {
+    border: 1px solid #ffe819; /* Add a border for better separation */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    padding: 10px; /* Add some padding inside the card */
+    margin: 10px; /* Add some margin around the card for spacing */
+    text-decoration: none;
+}
+.filmContainer h1{
+    color: white;
+    font-size: 18px;
+}
+
+.filmContainer p{
+    color: white;
+}
+
+
+@media screen and (min-width: 500px) {
+    .filmContainer{ 
+        width: 500px;
+        align-self: center;
+    }
+    
+}
+  

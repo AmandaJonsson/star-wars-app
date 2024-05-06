@@ -1,0 +1,17 @@
+.characters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.characters h2 {
+    margin-bottom: 0;
+}
+
+.characters-list {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
