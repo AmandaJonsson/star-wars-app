@@ -4,6 +4,6 @@ export async function fetchCharacters(url: string) {
         const data = await response.json();
         return data;
     } catch(error){
-        alert('Error fetching people'); 
+        alert('Error fetching characters'); 
     }
 }
